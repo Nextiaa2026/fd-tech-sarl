@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { AboutSection } from "@/components/home/about-section";
+import { BuildingBannerSection } from "@/components/home/building-banner-section";
 import { ContactCtaSection } from "@/components/home/contact-cta-section";
 import { HeroSection } from "@/components/home/hero-section";
 import { ProjectsSection } from "@/components/home/projects-section";
@@ -32,6 +33,7 @@ export default function HomePage() {
       <StatsSection />
       <ServicesPreviewSection />
       <ProjectsSection />
+      <BuildingBannerSection />
       <TeamSection />
       <ContactCtaSection />
     </>

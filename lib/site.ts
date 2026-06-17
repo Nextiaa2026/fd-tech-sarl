@@ -54,7 +54,7 @@ export const siteConfig = {
       location: "Dakar, Sénégal",
       name: "Centre Commercial Horizon",
       image:
-        "https://images.unsplash.com/photo-1486406146928-c627a92ad1ab?w=1600&q=85&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=85",
       alt: "Immeuble de bureaux moderne en verre",
     },
     {
@@ -72,4 +72,13 @@ export const siteConfig = {
   },
   about:
     "FD-TECH Construction Service allie expertise technique, rigueur et engagement pour mener à bien vos projets de construction, d'immobilier et de travaux publics. Notre équipe pluridisciplinaire garantit des réalisations durables, conformes aux normes et livrées dans les délais.",
+  buildingBanner: {
+    image:
+      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1920&q=85",
+    alt: "Skyline de gratte-ciels modernes au crépuscule",
+    title: "Construire l'avenir",
+    titleEmphasis: "avec confiance",
+    description:
+      "De la première pierre à la livraison, nous transformons vos ambitions en ouvrages durables, sûrs et conformes aux plus hauts standards du secteur.",
+  },
 } as const;
